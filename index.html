@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhijith Saju | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="container">
+        <h1>Abhijith Saju</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#hackathons">Hackathons</a></li>
+          <li><a href="#workshops">Workshops</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button onclick="document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });"
+  style="margin-top: 20px; padding: 10px 20px; font-size: 18px; font-weight: bold; background-color: #ff9800; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  Send A Message
+    </button>
+    <section class="hero">
+      <div class="container">
+        <h2>Aspiring Software Engineer</h2>
+        <p>Technology enthusiast , passionate about diving into diverse areas of innovation and software development,problem solving and coding.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Abhijith Saju, currently pursuing my B.Tech in Computer Science Engineering at Amal Jyothi College of Engineering, Kanjirappally.
+          I have a strong interest in software engineering and enjoy exploring the ever-evolving world of technology. From coding in Python and C to designing interfaces in Figma,
+          I believe in hands-on learning through projects, workshops, and hackathons. I'm a keen learner who loves building and problem-solving.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li><strong> Pursuing Bachelor of Technology in CSE</strong> at Amal Jyothi College of Engineering since 2024 </li>
+          <li><strong>Class 12th</strong> — St. Antony's Public School, Kanjirappally</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li>Python</li>
+          <li>HTML & CSS</li>
+          <li>C Programming</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p><strong>School Library System</strong> – Developed as part of Class 12 academic project to manage and organize school library records efficiently using Python and MySQL.</p>
+      </div>
+    </section>
+
+    <section id="hackathons" class="section">
+      <div class="container">
+        <h2>Hackathons Participated</h2>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1qBDiDW-UXXXhVFUseZatvTAMtv8JhXau/view?usp=sharing" target="_blank">NASA Space Apps Challenge – October 5, 2024</a></li>
+          <li></lo><a href="https://drive.google.com/file/d/1kcrH8kvacMn4n6vyrnwuX6SBp-94lTu6/view" target="_blank">UXplore UI/UX Hackathon by ACM AJCE – February 2025</a></li>
+          <li>SAP Hackfest Preliminary Round – June 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="workshops" class="section">
+      <div class="container">
+        <h2>Workshops Attended</h2>
+        <ul>
+          <li>Prompt Engineering Workshop hosted by AJCE</li>
+          <li>Drone Navigation Workshop hosted by AJCE</li>
+          <li>UI/UX - Figma Workshop hosted by ACM AJCE</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:abhijithsaju005@gmail.com">abhijithsaju005@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+917593919951">+91 7593919951</a></p>
+        <p><strong></strong> <a href="https://www.linkedin.com/in/abhijithsaju/" target="_blank">Linkedin Page of Abhijith Saju</a></p>
+	<p><strong></strong> <a href="https://github.com/AbhijithSaju" target="_blank">Github Page of Abhijith Saju</a></p>
+      </div>
+    </section>
+  </main>
+
+  <section class="section" id="contact-form">
+  <div class="container">
+    <h2>Send a Message</h2>
+    <form action="mailto:abhijithsaju2028@cs.ajce.in" method="POST" enctype="text/plain"
+      style="display: flex; flex-direction: column; align-items: center; gap: 15px; max-width: 600px; margin: 0 auto;">
+      <input type="text" name="name" placeholder="Your Name" required
+        style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;" />
+      <input type="email" name="email" placeholder="Your Email" required
+        style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;" />
+      <textarea name="message" placeholder="Your Message" rows="5" required
+        style="width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+      <button type="submit"
+        style="padding: 10px 20px; font-size: 16px; background-color: #0d47a1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Send
+      </button>
+    </form>
+  </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Abhijith Saju. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
